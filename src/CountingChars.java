@@ -1,5 +1,5 @@
 import java.util.HashMap;
-import java.util.Scanner;
+ 
 
 public class CountingChars {
     public static void main(String[] args) {
@@ -13,8 +13,6 @@ public class CountingChars {
 
 
         for (char letter : strLetters){
-
-            System.out.println(letter);
 
             if (charCounts.containsKey(letter)) {
                 int currentCount = charCounts.get(letter);
